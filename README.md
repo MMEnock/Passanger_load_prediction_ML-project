@@ -4,27 +4,6 @@
 ## Project Description
 This machine learning project aims to predict the passenger load ratio (PAr) of a plane. The goal is to develop a model that accurately forecasts this ratio based on a variety of features related to the flight, temporal information, and other contextual data. The output of the model, the PAr, helps airlines optimize their operations by anticipating the load factor of their flights.
 
-## Libraries Used
-```python
-# Importing Python Libraries to be used in this project
-import numpy as np
-import pandas as pd
-from matplotlib import pyplot as plt
-import seaborn as sns
-import dateutil.parser as parser
-from datetime import datetime, timedelta
-import re  # Importing regular expressions, a powerful language for matching regular expressions
-import matplotlib.pyplot as plt
-%matplotlib inline
-from pandas.tseries.offsets import *
-from plotly import tools
-from sklearn.model_selection import train_test_split, KFold
-from sklearn.metrics import r2_score, mean_absolute_error
-from sklearn.linear_model import LinearRegression, Lasso, ElasticNet
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.tree import DecisionTreeRegressor
-Features
 ## Below is a list of features used in the model along with their descriptions:
 
 Day of week: The day of the week when the flight occurs (e.g., Monday, Tuesday).
@@ -55,3 +34,25 @@ Year: The year when the flight occurs.
 
 Conclusion
 This project aims to accurately predict the passenger load ratio (PAr) using a variety of features. By utilizing machine learning models, the project can help optimize airline operations and improve decision-making based on predicted load factors.
+
+## Libraries Used
+```python
+# Importing Python Libraries to be used in this project
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+import seaborn as sns
+import dateutil.parser as parser
+from datetime import datetime, timedelta
+import re  # Importing regular expressions, a powerful language for matching regular expressions
+import matplotlib.pyplot as plt
+%matplotlib inline
+from pandas.tseries.offsets import *
+from plotly import tools
+from sklearn.model_selection import train_test_split, KFold
+from sklearn.metrics import r2_score, mean_absolute_error
+from sklearn.linear_model import LinearRegression, Lasso, ElasticNet
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.tree import DecisionTreeRegressor
+Features
