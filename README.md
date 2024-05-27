@@ -2,7 +2,7 @@
 ## ML Project: Predicting Passenger Load of a Plane
 
 ## Project Description
-This machine learning project aims to predict the passenger load ratio (PAr) of a plane. The goal is to develop a model that accurately forecasts this ratio based on a variety of features related to the flight, temporal information, and other contextual data. The output of the model, the PAr, helps airlines optimize their operations by anticipating the load factor of their flights.
+This machine learning project aims to predict the passenger load ratio (PAr) of a plane. The goal is to develop a model that accurately forecasts this ratio based on a variety of features related to the flight, temporal information, and other contextual data. The output of the model, the PAr, helps airlines optimize their operations by anticipating the load factor of their flights. It contains three Jupyter notebooks. **1** is for `´Cleaning`´, **2** is for `´Data preprations and exploration`´ and the **Third**  contains the `´Machine learning script`´.
 
 ## Below is a list of features used in the model along with their descriptions:
 
